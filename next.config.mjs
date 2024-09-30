@@ -4,6 +4,7 @@ const theme = extendTheme({
   typeface: {
     brand: "var(--font-brand)",
     plain: "var(--font-plain)",
+    icon: "Material Symbols Outlined",
     weight: {
       regular: "400",
       medium: "500",

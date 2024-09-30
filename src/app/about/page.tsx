@@ -1,12 +1,19 @@
 import { Text } from "@/components/ui/Text";
+import { css } from "@pigment-css/react";
 
-export default function HomePage() {
+export default function AboutPage() {
   return (
     <div>
       <Text as="h1" variant="display/large">
-        Home
+        About
       </Text>
-      <div>
+      <div
+        className={css({
+          display: "flex",
+          flexDirection: "column",
+          gap: "24px",
+        })}
+      >
         <Text variant="body/medium">
           Lorem ipsum, dolor sit amet consectetur adipisicing elit. Rem numquam
           vel accusantium voluptates molestias inventore, nisi maiores tenetur
